@@ -41,24 +41,24 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 FirstCoulmn(
-                  color1: Color(0xffAB46BC),
-                  color2: Color(0xffBB67C7),
-                  color3: Color(0xffCF94D8),
-                  color4: Color(0xffE1BEE8),
+                  color1: MyColors.purple1,
+                  color2: MyColors.purple2,
+                  color3: MyColors.purple3,
+                  color4: MyColors.purple4,
                 ),
                 Spacer(),
                 FirstCoulmn(
-                  color1: Color(0xff64BC68),
-                  color2: Color(0xff90C783),
-                  color3: Color(0xffA5D6A7),
-                  color4: Color(0xffC8E6CA),
+                  color1: MyColors.green1,
+                  color2: MyColors.green2,
+                  color3: MyColors.green3,
+                  color4: MyColors.green4,
                 ),
                 Spacer(),
                 FirstCoulmn(
-                  color1: Color(0xff42A5F6),
-                  color2: Color(0xff64B5F6),
-                  color3: Color(0xff8FCBFD),
-                  color4: Color(0xffBDDCF8),
+                  color1: MyColors.blue1,
+                  color2: MyColors.blue2,
+                  color3: MyColors.blue3,
+                  color4: MyColors.blue4,
                 ),
               ],
             ),
@@ -66,26 +66,26 @@ class MyHomePage extends StatelessWidget {
             Row(
               children: [
                 SecondCoulmn(
-                  color1: Color(0xffAB46BC),
-                  color2: Color(0xffBB67C7),
-                  color3: Color(0xffCF94D8),
-                  color4: Color(0xffE1BEE8),
+                  color1: MyColors.purple1,
+                  color2: MyColors.purple2,
+                  color3: MyColors.purple3,
+                  color4: MyColors.purple4,
                   cross: CrossAxisAlignment.start,
                 ),
                 Spacer(),
                 SecondCoulmn(
-                  color1: Color(0xff64BC68),
-                  color2: Color(0xff90C783),
-                  color3: Color(0xffA5D6A7),
-                  color4: Color(0xffC8E6CA),
+                  color1: MyColors.green1,
+                  color2: MyColors.green2,
+                  color3: MyColors.green3,
+                  color4: MyColors.green4,
                   cross: CrossAxisAlignment.center,
                 ),
                 Spacer(),
                 SecondCoulmn(
-                  color1: Color(0xff42A5F6),
-                  color2: Color(0xff64B5F6),
-                  color3: Color(0xff8FCBFD),
-                  color4: Color(0xffBDDCF8),
+                  color1: MyColors.blue1,
+                  color2: MyColors.blue2,
+                  color3: MyColors.blue3,
+                  color4: MyColors.blue4,
                   cross: CrossAxisAlignment.end,
                 ),
               ],
@@ -94,26 +94,26 @@ class MyHomePage extends StatelessWidget {
             Row(
               children: [
                 ThirdCoulmn(
-                  color1: Color(0xffAB46BC),
-                  color2: Color(0xffBB67C7),
-                  color3: Color(0xffCF94D8),
-                  color4: Color(0xffE1BEE8),
+                  color1: MyColors.purple1,
+                  color2: MyColors.purple2,
+                  color3: MyColors.purple3,
+                  color4: MyColors.purple4,
                   cross: CrossAxisAlignment.start,
                 ),
                 Spacer(),
                 ThirdCoulmn(
-                  color1: Color(0xff64BC68),
-                  color2: Color(0xff90C783),
-                  color3: Color(0xffA5D6A7),
-                  color4: Color(0xffC8E6CA),
+                  color1: MyColors.green1,
+                  color2: MyColors.green2,
+                  color3: MyColors.green3,
+                  color4: MyColors.green4,
                   cross: CrossAxisAlignment.center,
                 ),
                 Spacer(),
                 ThirdCoulmn(
-                  color1: Color(0xff42A5F6),
-                  color2: Color(0xff64B5F6),
-                  color3: Color(0xff8FCBFD),
-                  color4: Color(0xffBDDCF8),
+                  color1: MyColors.blue1,
+                  color2: MyColors.blue2,
+                  color3: MyColors.blue3,
+                  color4: MyColors.blue4,
                   cross: CrossAxisAlignment.end,
                 ),
               ],
@@ -123,24 +123,24 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 FourthCoulmn(
-                  color1: Color(0xffAB46BC),
-                  color2: Color(0xffBB67C7),
-                  color3: Color(0xffCF94D8),
-                  color4: Color(0xffE1BEE8),
+                  color1: MyColors.purple1,
+                  color2: MyColors.purple2,
+                  color3: MyColors.purple3,
+                  color4: MyColors.purple4,
                 ),
                 Spacer(),
                 FourthCoulmn(
-                  color1: Color(0xff64BC68),
-                  color2: Color(0xff90C783),
-                  color3: Color(0xffA5D6A7),
-                  color4: Color(0xffC8E6CA),
+                  color1: MyColors.green1,
+                  color2: MyColors.green2,
+                  color3: MyColors.green3,
+                  color4: MyColors.green4,
                 ),
                 Spacer(),
                 FourthCoulmn(
-                  color1: Color(0xff42A5F6),
-                  color2: Color(0xff64B5F6),
-                  color3: Color(0xff8FCBFD),
-                  color4: Color(0xffBDDCF8),
+                  color1: MyColors.blue1,
+                  color2: MyColors.blue2,
+                  color3: MyColors.blue3,
+                  color4: MyColors.blue4,
                 ),
               ],
             ),
@@ -149,6 +149,21 @@ class MyHomePage extends StatelessWidget {
       ),
     );
   }
+}
+
+abstract class MyColors {
+  static const blue1 = Color(0xff42A5F6);
+  static const blue2 = Color(0xff64B5F6);
+  static const blue3 = Color(0xff8FCBFD);
+  static const blue4 = Color(0xffBDDCF8);
+  static const green1 = Color(0xff64BC68);
+  static const green2 = Color(0xff90C783);
+  static const green3 = Color(0xffA5D6A7);
+  static const green4 = Color(0xffC8E6CA);
+  static const purple1 = Color(0xffAB46BC);
+  static const purple2 = Color(0xffBB67C7);
+  static const purple3 = Color(0xffCF94D8);
+  static const purple4 = Color(0xffE1BEE8);
 }
 
 class FirstCoulmn extends StatelessWidget {
@@ -168,9 +183,8 @@ class FirstCoulmn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    final boxWidth = screenWidth * 0.22; // 22% من عرض الشاشة
-    final boxHeight =
-        MediaQuery.of(context).size.height * 0.025; // 2.5% من الطول
+    final boxWidth = screenWidth * 0.22;
+    final boxHeight = MediaQuery.of(context).size.height * 0.025;
 
     return Column(
       children: [
